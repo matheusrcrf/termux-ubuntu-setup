@@ -27,7 +27,7 @@ pkg update && pkg upgrade -y
 pkg install proot-distro curl git zsh vim -y
 
 # 2. Baixe o script
-curl -O https://raw.githubusercontent.com/matheusrdev/termux-ubuntu-setup/main/termux-ubuntu-dev-setup.sh
+curl -fsSL https://raw.githubusercontent.com/matheusrcrf/termux-ubuntu-setup/refs/heads/main/termux-ubuntu-dev-setup.sh
 
 # 3. Dê permissão e execute
 chmod +x termux-ubuntu-dev-setup.sh
